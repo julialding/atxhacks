@@ -1,19 +1,20 @@
 .App {
   width: 100vw;
-  height: 350vh;
+  height: 300vh;
 }
 
 #home_image {
-  width: 100vw;
-  background-size: cover;
-  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#introduction_image {
-  background-image: url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+h1{
+  color: whitesmoke!important;
+  font-size: 5rem!important;
 }
 
-.parallax-window {
-  min-height: 400px;
-  background: transparent;
-}
+

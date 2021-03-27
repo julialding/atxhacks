@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './Components/Navigation'
-import { Parallax, Background } from 'react-parallax';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./Components/Navigation";
+import { Parallax, Background } from "react-parallax";
 
 function App() {
-  const Container = () => (
-    <Parallax
-        blur={{ min: -15, max: 15 }}
-        bgImage={require('./temp_picture.jpg')}
-        bgImageAlt="the dog"
-        strength={-200}
-    >
-        Blur transition from min to max
-        <div style={{ height: '200px' }} />
-    </Parallax>
-);
+  const image1 =
+    "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
   return (
     <div className="App">
       <Navbar />
-     {Container}
+      <div id="BigImageContainer">
+      <Parallax bgImage={image1}>
+        <div id="home_image">
+          <h1>ATXHacks</h1>
+          <button>Register</button>
+        </div>
+      </Parallax>
+
+      </div>
     </div>
   );
 }
