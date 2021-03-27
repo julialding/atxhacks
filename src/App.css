@@ -1,0 +1,19 @@
+.App {
+  width: 100vw;
+  height: 350vh;
+}
+
+#home_image {
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#introduction_image {
+  background-image: url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
