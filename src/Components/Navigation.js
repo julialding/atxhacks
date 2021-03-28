@@ -32,7 +32,13 @@ export default function Navigation() {
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">Team/Judges</a>
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Judges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
             </li>
           </ul>
           
